@@ -1,13 +1,13 @@
 import { IsNumber, IsString, IsOptional } from 'class-validator'
 
 export class CreateCatDto {
-  @IsString()
-  readonly name: string
+	@IsString()
+	readonly name: string
 
-  @IsNumber()
-  readonly weight: number
+	@IsNumber()
+	readonly weight: number
 
-  @IsString({ each: true })
-  @IsOptional()
-  readonly color: string
+	@IsString({ each: true })
+	@IsOptional()
+	readonly color: string
 }

@@ -1,5 +1,5 @@
 export class Cat {
-  name: string
-  weight: number
-  color: string
+	name: string
+	weight: number
+	color: string
 }
